@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+}
+
+body {
+    width: 1200px;
+    margin: auto;
+    background-color: #E5E5E5;
+}
+
+.background {
+    display: flex;
+    align-items: center;
+    width: 1028px;
+    height: 562px;
+    background-color: #454545;
+}
+
+.player {
+    display: flex;
+    flex-direction: row;
+    width: 540px;
+    height: 169px;
+    background-color: #FFFEF8;
+    margin: auto;
+    border-radius: 14px;
+}
+
+.img-wrapper {
+    background-image: url(./assets/thumbnail-img.svg);
+    background-repeat: no-repeat;
+    width: 169px;
+    height: 169px;
+    background-size: cover;
+    border-radius: 14px 0 0 14px;
+}
+
+.wrapper {
+    padding: 20px;
+}
+
+.wrapper .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.artist {
+    font: 700 18px 'Inter';
+    color: #000000;
+}
+
+.img-vector {
+    background-image: url(./assets/Vector.svg);
+    background-repeat: no-repeat;
+    width: 21px;
+    height: 21px;
+}
+
+.trek {
+    font: 400 14px 'Inter';
+    color: #454545;
+}
+
+.preview {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+#audio {
+    width: 300px;
+    height: 20px;
+    margin-top: 15px;
+}
+
+
+.play {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.img-icon {
+    background-image: url(./assets/Icon.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.prevBtn {
+    background-image: url(./assets/prevBtn.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.playBtn {
+    background-image: url(./assets/playBtn.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.nextBtn {
+    background-image: url(./assets/nextBtn.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.img-like-white {
+    background-image: url(./assets/Icon\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
