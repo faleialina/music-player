@@ -51,11 +51,11 @@ runSong.addEventListener(`click`, function () {
     if (flag == false) {
         aud.play();
         flag = true;
-        runSong.style = `background-image: url(./assets/stop.svg);`
+        runSong.style = `background-image: url(./assets/playBtn\ \(2\).svg);`
     } else {
         aud.pause();
         flag = false;
-        runSong.style = `background-image: url(./assets/playBtn.png);`
+        runSong.style = `background-image: url(./assets/playBtn.svg);`
     }
 });
 
@@ -68,7 +68,7 @@ leftSong.addEventListener(`click`, function () {
     img.style = `background-image: url(${playList[currenIndexSong].imgPath});`
     aud.play();
     flag = true;
-    runSong.style = `background-image: url(./assets/stop.svg);`
+    runSong.style = `background-image: url(./assets/playBtn\ \(2\).svg);`
 });
 
 rightSong.addEventListener(`click`, function () {
@@ -80,16 +80,16 @@ rightSong.addEventListener(`click`, function () {
     img.style = `background-image: url(${playList[currenIndexSong].imgPath});`
     aud.play();
     flag = true;
-    runSong.style = `background-image: url(./assets/stop.svg);`
+    runSong.style = `background-image: url(./assets/playBtn\ \(2\).svg);`
 });
 
 let heard = false;
 like.addEventListener(`click`, function () {
     if (heard == false) {
-        like.style = `background-image: url(./assets/like-black.svg);`
+        like.style = `background-image: url(./assets/favBtn.svg);`
         heard = true;
     } else {
-        like.style = `background-image: url(./assets/like-white.svg);`
+        like.style = `background-image: url(./assets/Icon\ \(1\).svg);`
         heard = false;
     }
 
